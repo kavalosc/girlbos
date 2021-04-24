@@ -6,7 +6,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width">
         
-        <title>Girl Boss</title>
+        <title>uCEO</title>
 
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
         <link href="../statistic/style.css" rel="stylesheet" type="text/css" />
@@ -18,10 +18,10 @@
 
     <body>
         <div class="container-fluid page" id="home" >
-            <h1>Girl Boss</h1>
+            <h1>uCEO</h1>
 
             <div id="home-content">
-                <h4>Content.</h4>
+                <h4>Where you can make a difference.</h4>
                 <p>This is where the content should be written</p>
                 
                 <div id="home-buttons">
