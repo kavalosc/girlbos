@@ -17,6 +17,11 @@
     </head>
 
     <body>
+        <nav class="navbar navbar-light bg-light">
+            <a class="navbar-brand" href="#">Home</a>
+            <a class="navbar-brand" href="#">Businesses</a>
+            <a class="navbar-brand" href="#">About Us</a>
+        </nav>
         <div class="container-fluid page" id="home" >
             <h1>uCEO</h1>
 
