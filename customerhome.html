@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>uCEO</title>
+        <link rel="shortcut icon" href="../images/fav_icon.png" type="image/x-icon">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Bebas+Neue" rel="stylesheet">
+        <!-- Bulma Version 0.9.0-->
+        <link rel="stylesheet" href="https://unpkg.com/bulma@0.9.0/css/bulma.min.css" />
+        <link rel="stylesheet" type="text/css" href="../css/hero.css">
+        <link rel="stylesheet" href="https://unpkg.com/bulma-modal-fx/dist/css/modal-fx.min.css" />
+
+        <style>
+    
+            .resize{
+                width: 40px;
+                height: auto;
+            }
+            .resize{
+                width: 30px;
+                height: auto;
+            }
+            .hero-head{
+                background-color:white;
+            }
+            .hero-body{
+                background-color: white;
+            }
+
+            * {box-sizing:border-box}
+
+            /* Slideshow container */
+            .slideshow-container {
+            max-width: 1000px;
+            position: relative;
+            margin: auto;
+            }
+
+            /* Hide the images by default */
+            .mySlides {
+            display: none;
+            }
+
+            /* Next & previous buttons */
+            .prev, .next {
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            width: auto;
+            margin-top: -22px;
+            padding: 16px;
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+            transition: 0.6s ease;
+            border-radius: 0 3px 3px 0;
+            user-select: none;
+            }
+
+            /* Position the "next button" to the right */
+            .next {
+            right: 0;
+            border-radius: 3px 0 0 3px;
+            }
+
+            /* On hover, add a black background color with a little bit see-through */
+            .prev:hover, .next:hover {
+            background-color: rgba(0,0,0,0.8);
+            }
+
+            /* Caption text */
+            .text {
+            color: #f2f2f2;
+            font-size: 15px;
+            padding: 8px 12px;
+            position: absolute;
+            bottom: 8px;
+            width: 100%;
+            text-align: center;
+            }
+
+            /* Number text (1/3 etc) */
+            .numbertext {
+            color: #f2f2f2;
+            font-size: 12px;
+            padding: 8px 12px;
+            position: absolute;
+            top: 0;
+            }
+
+            /* The dots/bullets/indicators */
+            .dot {
+            cursor: pointer;
+            height: 15px;
+            width: 15px;
+            margin: 0 2px;
+            background-color: #bbb;
+            border-radius: 50%;
+            display: inline-block;
+            transition: background-color 0.6s ease;
+            }
+
+            .active, .dot:hover {
+            background-color: #717171;
+            }
+
+            /* Fading animation */
+            .fade {
+            -webkit-animation-name: fade;
+            -webkit-animation-duration: 1.5s;
+            animation-name: fade;
+            animation-duration: 1.5s;
+            }
+
+            @-webkit-keyframes fade {
+            from {opacity: .4}
+            to {opacity: 1}
+            }
+
+            @keyframes fade {
+            from {opacity: .4}
+            to {opacity: 1}
+            }
+        </style>
+    </head>
+    <body>
+        <section class="hero is-info is-medium is-bold">
+            <div class="hero-head">
+                <nav class="navbar">
+                    <div class="container">
+                        <div class="navbar-brand">
+                            <a class="navbar-item" href="../">
+                                <img src="C:\Users\karla\Downloads\blueuceo-removebg-preview.png" alt="Logo">
+                            </a>
+                            <span class="navbar-burger burger" data-target="navbarMenu">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </span>
+                        </div>
+                        <div id="navbarMenu" class="navbar-menu">
+                            <div class="navbar-end">
+                                <div class="tabs is-right">
+                                    <ul style="color:rgb(51, 183, 216);">
+                                        <li class="is-active"><a>Home</a></li>
+                                        <li><a href="">Business</a></li>
+                                        <li><a href="">Features</a></li>
+                                        <li><a href="">Help</a></li>
+                                        <li><a href="login.html">Login</a></li>
+                                        <li><a href="">Signup</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <div class="hero-body">
+                <div class="container has-text-centered">
+                    <h1 class="title" style="color:black;">
+                    Where You Can Make a Difference.
+                    </h1>
+                    <h1></h1>
+                    <h2 class="subtitle" style="color:black;">
+                    uCEO is a platform that is made to create a safe and friendly environment for anyone to start their business from home. We aim to provide the necessary resources and clientele for you to jump start your business venture! 
+                    </h2>
+                </div>
+            </div>
+        </section>
+        
+        <section class="container">
+            <div class="columns features">
+                <div class="column is-4">
+                    <div class="card is-shady">
+                        <div class="card-image has-text-centered">
+                            <img class="resize" src="C:\Users\karla\OneDrive\Pictures\suitcase.png">
+                        </div>
+                        <div class="card-content">
+                            <div class="content">
+                                <h4>Business </h4>
+                                <figure class="image">
+                                    <img src="5ac.jpg" alt="Placeholder" height = "500px">
+                                </figure>                        
+                                <a class="button">View Shops</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column is-4">
+                    <div class="card is-shady">
+                        <div class="card-image has-text-centered">
+                            <img class="resize" src="C:\Users\karla\OneDrive\Pictures\network.png">
+                        </div>
+                        <div class="card-content">
+                            <div class="content">
+                                <h4>Explore</h4>
+                                <figure class="image">
+                                    <img src="img" alt="Placeholder" height = "500px">
+                                </figure>
+                        
+                                <a class="button">View Shops</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column is-4">
+                    <div class="card is-shady">
+                        <div class="card-image has-text-centered">
+                            <img class="resize" src="C:\Users\karla\OneDrive\Pictures\shoutout.png">
+                        </div>
+                        <div class="card-content">
+                            <div class="content">
+                                <h4>Featured </h4>
+                                <div class="slideshow-container">
+
+                                    <!-- Full-width images with number and caption text -->
+                                    <div class="mySlides fade">
+                                      <div class="numbertext">1 / 3</div>
+                                      <img src="img1.jpg" alt="placeholder"style="width:100%">
+                                      <div class="text">Caption Text</div>
+                                      <p class="title">Startup1</p>
+                                
+                                      <a class="button">View Shop</a>
+                            
+                                    </div>
+                                  
+                                    <div class="mySlides fade">
+                                      <div class="numbertext">2 / 3</div>
+                                      <img src="img2.jpg" style="width:100%">
+                                      <div class="text">Caption Two</div>
+                                      <p class="title">Startup2</p>
+                                
+                                      <a class="button">View Shop</a>
+                                    </div>
+                                  
+                                    <div class="mySlides fade">
+                                      <div class="numbertext">3 / 3</div>
+                                      <img src="img3.jpg" style="width:100%">
+                                      <div class="text">Caption Three</div>
+                                      <p class="title">Startup3</p>
+                                
+                                      <a class="button">View Shop</a>
+                                    </div>
+                                  
+                                    <!-- Next and previous buttons -->
+                                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                                  </div>
+                                  <br>
+                                  
+                                  <!-- The dots/circles -->
+                                  <div style="text-align:center">
+                                    <span class="dot" onclick="currentSlide(1)"></span>
+                                    <span class="dot" onclick="currentSlide(2)"></span>
+                                    <span class="dot" onclick="currentSlide(3)"></span>
+                                  </div>
+                                </div>
+                                <script>
+                                    var slideIndex = 1;
+                                    showSlides(slideIndex);
+
+                                    // Next/previous controls
+                                    function plusSlides(n) {
+                                    showSlides(slideIndex += n);
+                                    }
+
+                                    // Thumbnail image controls
+                                    function currentSlide(n) {
+                                    showSlides(slideIndex = n);
+                                    }
+                                    function showSlides(n) {
+                                    var i;
+                                    var slides = document.getElementsByClassName("mySlides");
+                        
+                                    var dots = document.getElementsByClassName("dot");
+                                    if (n > slides.length) {slideIndex = 1}
+                                    if (n < 1) {slideIndex = slides.length}
+                                    for (i = 0; i < slides.length; i++) {
+                                        slides[i].style.display = "none";
+                                    }
+                                    for (i = 0; i < dots.length; i++) {
+                                        dots[i].className = dots[i].className.replace(" active", "");
+                                    }
+                                    slides[slideIndex-1].style.display = "block";
+                                    dots[slideIndex-1].className += " active";
+                                    }
+                                </script>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="intro column is-8 is-offset-2">
+                <h2 class="title">Get started!</h2><br>
+                <p class="subtitle"></p>
+            </div>
+            <div class="sandbox">
+                <div class="tile is-ancestor">
+                    <div class="tile is-parent is-shady">
+                        <article class="tile is-child notification is-white">
+                            <p class="title">Support Small Businesses!</p>
+                            <p class="subtitle">Startup Businesses</p>
+                            <p> By purchasing products from our partnered businesses, customers are helping people pursue their passion and dreams through their support for these small businesses. Small businesses tend to have harder times finding clientel despite their quality products; we want to help them recieve the recognition and success they deserve.</p>
+                        </article>
+                    </div>
+                    <div class="tile is-parent is-shady">
+                        <article class="tile is-child notification is-white">
+                            <p class="title">Women Empowerment</p>
+                            <p class="subtitle">Women Euntrepeneurs</p>
+                            <p>Our goal is to help women who do not yet have a platform, follow their business dreams and provide them the tools to creating their own businesses. This is a safe environment for anyone to join and pursue their career goals. </p>
+                        </article>
+                    </div>
+                    <div class="tile is-parent is-shady">
+                        <article class="tile is-child notification is-white">
+                            <p class="title">Get connected</p>
+                            <p class="subtitle">Find new businesses</p>
+                            <div class="content">
+                                <p>Our platform helps connect people to businesses by providing their business information and an easily accesible way to contact or place orders with them. Business partners can reach out to businesses with new opportunities and overall expand on their network. Small businesses can use this platform as a means of showcasing their products to a larger amount of people and gaining exposure, as well as business connections.</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                
+                <div class="tile is-ancestor">
+                    <div class="tile is-parent is-shady">
+                        <img src="img" alt="placeholder">
+                    </div>
+                    <div class="tile is-parent is-8 is-shady">
+                        <article class="tile is-child notification is-white">
+                            <p class="title">Process</p>
+                            <p class="subtitle">Quality products make dreams come true</p>
+                            <div class="content">
+                                <p>First, an idea is created. With that idea spawns various new ideas ultimately leading to the creation of a business. Now, that business can provide a variety of quality items to their local customers. Think big and make a change.</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="container">
+                <div class="columns">
+                    <div class="column is-centered">
+                        <h2><strong>Category</strong></h2>
+                        <p>
+                            <a href="#">Shop</a>     <a href="#">About</a>     <a href="#">Help</a>    <a href="#">Social</a>
+
+                        </p>
+                    </div>
+                </div>
+                <div class="content has-text-centered">
+                    <p>
+                        "Dream with ambition, lead with conviction, and see yourself in a way that others might not see you, simply because they’ve never seen it before." - Kamala Harris
+                    </p>
+                    <div class="control level-item">
+                        <a href="https://github.com/BulmaTemplates/bulma-templates">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <script src="../js/bulma.js"></script>
+        </footer>
+    </body>
+</html>
